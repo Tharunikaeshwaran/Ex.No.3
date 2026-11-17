@@ -152,7 +152,7 @@ These assistants improve **patient engagement**, reduce missed appointments, and
 **Prompt Engineering** plays an important role in improving the quality of AI-generated responses. **Straightforward Prompting** provides clear and concise information, **Tabular Format Prompting** improves readability through structured presentation, **Preceding Question Prompting** produces detailed and context-aware explanations, and **Missing Word Prompting** tests language comprehension and contextual understanding.
 
 
-
+```
 
 # Result: Thus the Prompts were exected succcessfully.
 
