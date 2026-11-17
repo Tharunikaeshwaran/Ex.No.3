@@ -22,95 +22,101 @@ Procedure:
 
 ```
 PROMPT:
-### Scenario
 
-A hospital plans to develop an **AI-powered Smart Healthcare Assistant** to help patients book appointments, understand common symptoms, receive medication reminders, access basic health information, and monitor their daily wellness activities.
 
-The assistant provides quick responses to general health-related questions, promotes healthy habits, reminds patients about follow-up visits, and helps healthcare professionals organize patient information.
+## Scenario
 
-The main goal is to **improve patient engagement, reduce waiting time, and provide accessible healthcare support** through intelligent AI assistance.
+A hospital plans to develop an **AI-powered Smart Healthcare Assistant** that helps patients book appointments, understand common symptoms, receive medication reminders, access basic health information, and monitor their daily wellness activities.
+
+The assistant provides quick responses to general health-related questions, promotes healthy habits, reminds patients about follow-up visits, and assists healthcare professionals by organizing patient information.
+
+The goal is to **improve patient engagement, reduce waiting time, and provide accessible healthcare support** through intelligent AI assistance.
 
 ---
 
-## 1. Straightforward Prompting
+# 1. Straightforward Prompting
 
-### Prompt
+## Prompt
 
-> Design an AI-powered Smart Healthcare Assistant that helps patients schedule appointments, receive medication reminders, answer common health questions, and monitor daily wellness activities.
+Design an AI-powered Smart Healthcare Assistant that helps patients schedule appointments, receive medication reminders, answer common health questions, and monitor daily wellness activities.
 
-### Generated Response
+## Generated Response
 
-The AI-powered Smart Healthcare Assistant helps patients **book medical appointments**, sends **medication reminders**, answers common **health-related questions**, and tracks daily wellness activities such as **exercise, water intake, and sleep**.
+The AI-powered Smart Healthcare Assistant helps patients **schedule medical appointments**, receive **medication reminders**, get answers to **common health questions**, and monitor daily wellness activities such as **exercise, water intake, and sleep**.
 
-It also provides basic healthcare guidance, reminds patients about follow-up consultations, and supports better health management through personalized assistance.
+It also provides basic health information, reminds patients about follow-up visits, and encourages healthy habits. This helps patients manage their daily healthcare activities easily and improves patient engagement.
 
-### Evaluation
+## Evaluation
 
-- Clearly specifies the required functionalities.
-- Generates a **concise and relevant response**.
-- Easy to understand without additional instructions.
-- Suitable for **quick system descriptions**.
-- Effective for **introductory explanations**.
+• Clearly specifies the required functionalities.  
+• Produces a simple and relevant response.  
+• Easy to understand without additional instructions.  
+• Suitable for quick system descriptions.  
+• Useful for introductory explanations.
 
 ---
 
 # 2. Tabular Format Prompting
 
-### Prompt
+## Prompt
 
-> Present the major features of the AI-Based Smart Healthcare Assistant in a table containing **Feature, Purpose, and Example**.
+Present the major features of the AI-Based Smart Healthcare Assistant using a **proper visible table** with the columns **Feature, Purpose, and Example**.
 
-### Generated Response
+**Important:** Do not use Markdown table syntax such as `|` and `---`. Do not place the table inside a code block. Display the table using visible rows and columns.
 
-| Feature | Purpose | Example |
-|---|---|---|
-| **Health Record Management** | Stores and organizes patient records | Maintains medical history and lab reports |
-| **Online Consultation** | Connects patients with doctors remotely | Enables video consultation |
-| **Emergency Alerts** | Sends alerts during critical situations | Alerts emergency contacts when abnormal readings are detected |
-| **Health Report Analysis** | Helps understand medical test results | Summarizes blood test reports |
-| **Personalized Health Tips** | Provides healthy lifestyle suggestions | Suggests walking and a balanced diet |
-| **Prescription Management** | Tracks prescribed medicines | Displays medicine details and dosage |
-| **Patient Progress Tracking** | Monitors health changes over time | Generates weekly health reports |
+## Generated Response
 
-### Evaluation
+┌──────────────────────────────┬────────────────────────────────────┬────────────────────────────────────────────┐
+│ Feature                      │ Purpose                            │ Example                                    │
+├──────────────────────────────┼────────────────────────────────────┼────────────────────────────────────────────┤
+│ Health Record Management     │ Stores patient health records     │ Maintains medical history and reports     │
+│ Appointment Management       │ Helps patients book appointments  │ Books appointments with doctors           │
+│ Medication Reminders         │ Reminds patients to take medicine │ Sends reminders at the correct time       │
+│ Health Report Analysis       │ Helps understand health reports   │ Provides a simple summary of test results │
+│ Emergency Alerts             │ Provides alerts during emergencies│ Alerts emergency contacts when needed     │
+│ Personalized Health Tips     │ Encourages healthy habits         │ Suggests exercise and healthy food        │
+│ Wellness Monitoring          │ Tracks daily wellness activities  │ Monitors sleep, water intake and exercise │
+└──────────────────────────────┴────────────────────────────────────┴────────────────────────────────────────────┘
 
-- Presents information in a **structured manner**.
-- Makes comparison easier.
-- Improves **readability**.
-- Suitable for **reports and documentation**.
-- Clearly highlights system functionalities.
+## Evaluation
+
+• Presents information in a **clear and structured format**.  
+• Makes comparison between features easier.  
+• Improves readability.  
+• Suitable for reports and documentation.  
+• Clearly explains the major functions of the healthcare assistant.
 
 ---
 
 # 3. Preceding Question Prompting
 
-### Prompt
+## Prompt
 
-> Why are AI-powered healthcare assistants becoming important in modern hospitals? Explain how they improve patient care, appointment management, medication adherence, and wellness monitoring.
+Why are AI-powered healthcare assistants becoming important in modern hospitals? Explain how they improve patient care, appointment management, medication adherence, and wellness monitoring.
 
-### Generated Response
+## Generated Response
 
-AI-powered healthcare assistants are becoming important because they **improve access to healthcare services** and reduce the workload of medical staff.
+AI-powered healthcare assistants are becoming important because they provide **quick and accessible healthcare support** to patients. They can help patients book appointments, receive medication reminders, get answers to common health questions, and monitor daily wellness activities.
 
-They help patients schedule appointments quickly, provide medication reminders to improve treatment adherence, answer common health-related questions, and monitor wellness activities such as **sleep, exercise, and hydration**.
+They also reduce the workload of healthcare staff by handling simple and repetitive tasks. Appointment reminders can reduce missed visits, while medication reminders can help patients follow their prescribed schedules. Wellness monitoring can encourage patients to maintain healthy habits such as regular exercise, proper hydration, and adequate sleep.
 
-These assistants improve **patient engagement**, reduce missed appointments, and encourage healthier lifestyles through continuous support and timely notifications.
+Therefore, AI healthcare assistants can improve **patient engagement, healthcare accessibility, and daily health management**.
 
-### Evaluation
+## Evaluation
 
-- Generates **logical and well-structured explanations**.
-- Demonstrates contextual understanding.
-- Provides comprehensive information.
-- Encourages reasoning before answering.
-- Suitable for **analytical and descriptive tasks**.
+• Generates a logical and well-structured explanation.  
+• Provides useful context before answering.  
+• Demonstrates contextual understanding.  
+• Suitable for analytical and descriptive tasks.  
+• Gives a more detailed response than a straightforward prompt.
 
 ---
 
 # 4. Missing Word Prompting
 
-### Prompt
+## Prompt
 
-**Complete the following sentences:**
+Complete the following sentences:
 
 1. Patients can schedule __________ through the AI assistant.
 2. The assistant sends __________ reminders to patients.
@@ -118,7 +124,7 @@ These assistants improve **patient engagement**, reduce missed appointments, and
 4. AI provides basic __________ information.
 5. The system reminds patients about __________ appointments.
 
-### Generated Response
+## Generated Response
 
 1. **Appointments**
 2. **Medication**
@@ -126,33 +132,44 @@ These assistants improve **patient engagement**, reduce missed appointments, and
 4. **Health**
 5. **Follow-up**
 
-### Evaluation
+## Evaluation
 
-- Tests **contextual understanding**.
-- Useful for educational assessments.
-- Reinforces important healthcare concepts.
-- Generates accurate word completions.
-- Suitable for **quizzes and learning activities**.
+• Tests contextual understanding.  
+• Useful for educational assessments.  
+• Reinforces important healthcare concepts.  
+• Helps students remember key terms.  
+• Suitable for quizzes and learning activities.
 
 ---
 
 # Comparison of Prompt Engineering Techniques
 
-| Prompt Type | Purpose | Strengths | Best Use Case |
-|---|---|---|---|
-| **Straightforward Prompting** | Gives direct instructions | Simple and quick responses | General descriptions |
-| **Tabular Format Prompting** | Organizes information | Easy comparison and readability | Documentation and reports |
-| **Preceding Question Prompting** | Builds context before answering | Detailed and context-aware explanation | Analytical tasks |
-| **Missing Word Prompting** | Tests contextual understanding | Improves comprehension | Educational assessments |
+Present the comparison using a **proper visible table**. Do not use Markdown table syntax or a code block.
+
+## Comparison
+
+┌──────────────────────────────┬────────────────────────────┬──────────────────────────────┬──────────────────────────────┐
+│ Prompt Type                  │ Purpose                    │ Strengths                    │ Best Use Case                │
+├──────────────────────────────┼────────────────────────────┼──────────────────────────────┼──────────────────────────────┤
+│ Straightforward Prompting    │ Gives direct instructions  │ Simple and quick responses   │ General descriptions         │
+│ Tabular Format Prompting     │ Organizes information      │ Easy comparison and reading  │ Reports and documentation    │
+│ Preceding Question Prompting │ Builds context before      │ Detailed and context-aware   │ Analytical tasks             │
+│                              │ answering                  │ explanations                 │                              │
+│ Missing Word Prompting       │ Tests contextual           │ Improves comprehension       │ Educational assessments      │
+│                              │ understanding              │ and recall                   │                              │
+└──────────────────────────────┴────────────────────────────┴──────────────────────────────┴──────────────────────────────┘
 
 ---
 
 # Conclusion
 
-**Prompt Engineering** plays an important role in improving the quality of AI-generated responses. **Straightforward Prompting** provides clear and concise information, **Tabular Format Prompting** improves readability through structured presentation, **Preceding Question Prompting** produces detailed and context-aware explanations, and **Missing Word Prompting** tests language comprehension and contextual understanding.
+**Prompt Engineering** plays an important role in improving the quality of AI-generated responses. Different prompting techniques are useful for different purposes.
+
+**Straightforward Prompting** provides clear and concise information. **Tabular Format Prompting** organizes information in a structured way and makes comparison easier. **Preceding Question Prompting** provides context and generates more detailed explanations. **Missing Word Prompting** helps test contextual understanding and improves learning.
+
+Therefore, selecting the **appropriate prompting technique** helps AI systems generate effective and user-friendly responses for healthcare applications such as the **AI-Based Smart Healthcare Assistant**.
 
 
-```
 
 # Result: Thus the Prompts were exected succcessfully.
-
+```
