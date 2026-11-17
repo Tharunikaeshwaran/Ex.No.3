@@ -20,7 +20,6 @@ Procedure:
    •	"The capital of France is ____."
   •	"In photosynthesis, plants absorb sunlight to produce ____."
 
-```
 PROMPT:
 
 
@@ -69,13 +68,13 @@ Present the major features of the AI-Based Smart Healthcare Assistant using a **
 ┌──────────────────────────────┬────────────────────────────────────┬────────────────────────────────────────────┐
 │ Feature                      │ Purpose                            │ Example                                    │
 ├──────────────────────────────┼────────────────────────────────────┼────────────────────────────────────────────┤
-│ Health Record Management     │ Stores patient health records     │ Maintains medical history and reports     │
-│ Appointment Management       │ Helps patients book appointments  │ Books appointments with doctors           │
-│ Medication Reminders         │ Reminds patients to take medicine │ Sends reminders at the correct time       │
-│ Health Report Analysis       │ Helps understand health reports   │ Provides a simple summary of test results │
-│ Emergency Alerts             │ Provides alerts during emergencies│ Alerts emergency contacts when needed     │
-│ Personalized Health Tips     │ Encourages healthy habits         │ Suggests exercise and healthy food        │
-│ Wellness Monitoring          │ Tracks daily wellness activities  │ Monitors sleep, water intake and exercise │
+│ Health Record Management     │ Stores patient health records      │  Maintains medical history and reports     │
+│ Appointment Management       │ Helps patients book appointments   │ Books appointments with doctors            │
+│ Medication Reminders         │ Reminds patients to take medicine  │ Sends reminders at the correct time        │
+│ Health Report Analysis       │ Helps understand health reports    │ Provides a simple summary of test results  │
+│ Emergency Alerts             │ Provides alerts during emergencies │ Alerts emergency contacts when needed      │
+│ Personalized Health Tips     │ Encourages healthy habits          │ Suggests exercise and healthy food         │
+│ Wellness Monitoring          │ Tracks daily wellness activities   │ Monitors sleep, water intake and exercise  │
 └──────────────────────────────┴────────────────────────────────────┴────────────────────────────────────────────┘
 
 ## Evaluation
@@ -110,7 +109,6 @@ Therefore, AI healthcare assistants can improve **patient engagement, healthcare
 • Suitable for analytical and descriptive tasks.  
 • Gives a more detailed response than a straightforward prompt.
 
----
 
 # 4. Missing Word Prompting
 
@@ -140,7 +138,7 @@ Complete the following sentences:
 • Helps students remember key terms.  
 • Suitable for quizzes and learning activities.
 
----
+
 
 # Comparison of Prompt Engineering Techniques
 
@@ -159,7 +157,7 @@ Present the comparison using a **proper visible table**. Do not use Markdown tab
 │                              │ understanding              │ and recall                   │                              │
 └──────────────────────────────┴────────────────────────────┴──────────────────────────────┴──────────────────────────────┘
 
----
+
 
 # Conclusion
 
@@ -172,4 +170,4 @@ Therefore, selecting the **appropriate prompting technique** helps AI systems ge
 
 
 # Result: Thus the Prompts were exected succcessfully.
-```
+
