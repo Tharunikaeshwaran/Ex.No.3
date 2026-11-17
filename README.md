@@ -19,7 +19,7 @@ Procedure:
 4. Missing Word Prompting:
    •	"The capital of France is ____."
   •	"In photosynthesis, plants absorb sunlight to produce ____."
-
+```
 PROMPT:
 
 
@@ -170,4 +170,4 @@ Therefore, selecting the **appropriate prompting technique** helps AI systems ge
 
 
 # Result: Thus the Prompts were exected succcessfully.
-
+```
