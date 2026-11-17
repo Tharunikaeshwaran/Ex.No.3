@@ -19,7 +19,7 @@ Procedure:
 4. Missing Word Prompting:
    •	"The capital of France is ____."
   •	"In photosynthesis, plants absorb sunlight to produce ____."
-```
+
 PROMPT:
 
 
@@ -54,8 +54,7 @@ Present the major features of the AI-Based Smart Healthcare Assistant in a table
 
 
 ## Generated Response
-```
-```
+
 | Feature | Purpose | Example |
 |---|---|---|
 | Health Record Management | Stores and organizes patient medical records | Maintains patients' medical history and lab reports |
@@ -65,8 +64,8 @@ Present the major features of the AI-Based Smart Healthcare Assistant in a table
 | Personalized Health Tips | Provides health and lifestyle recommendations | Suggests a daily walking routine and a balanced diet |
 | Prescription Management | Organizes and tracks prescribed medicines | Displays medicine details and dosage instructions |
 | Patient Progress Tracking | Monitors changes in a patient's health over time | Generates weekly reports based on recorded health data |
-```
-```
+
+
 ### Evaluation
 
 * Presents information in a structured manner.
@@ -138,4 +137,4 @@ Prompt Engineering plays an important role in improving the quality of AI-genera
 
 
 # Result: Thus the Prompts were exected succcessfully.
-```
+
